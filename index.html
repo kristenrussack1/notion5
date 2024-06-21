@@ -22,7 +22,7 @@
   <div id="container"></div>
   <script>
     async function fetchProjects() {
-      const rest = await fetch("https://kristenrussack1.github.io/notion5/", { mode: 'no-cors' });
+      const rest = await fetch("https://kristenrussack1.github.io/notion5/");
       const data = await rest.json();
       return data;
     }
